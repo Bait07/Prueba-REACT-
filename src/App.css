@@ -1,0 +1,156 @@
+
+body {
+  background-color: #021a40;
+  font-family: 'Roboto'; /* Cambia aquí para probar diferentes fuentes */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+.Filtros h2{
+  color: white;
+}
+
+.botonesFiltro{
+  margin-top: 10px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  font-size: 17px;
+}
+
+.botonesFiltro:hover{
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.boton_agregar_tarea{
+  margin-top: 10px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  font-size: 20px;
+}
+
+.boton_agregar_tarea:hover{
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+input {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  
+  border: none;
+  background-color: #0360ad;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botones-acciones {
+  display: flex;
+  gap: 5px; 
+}
+
+.B-eliminar{
+  background-color: red;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.B-eliminar:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.B-editar{
+  background-color: orange;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.B-editar:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+.icono-boton {
+  font-size: 20px; 
+}
+
+.Filtros{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.botonesFiltro{
+  background-color: #5b7a8e;
+  margin-left: 10px;
+  margin-bottom: 10px; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li.completed {
+  text-decoration: line-through;
+  background-color: #d4edda;
+}
+
+.checkbox {
+  width: 20px; /* Ajusta el tamaño a tu preferencia */
+  height: 20px;
+}
+
+.mensaje-felicitaciones {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.tarea-completada-fondo {
+  background-color: #d4edda; 
+  transition: background-color 0.3s ease; 
+}
+
+.descripcion {
+  text-align: center;
+}
