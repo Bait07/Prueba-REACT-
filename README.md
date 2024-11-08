@@ -21,14 +21,14 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina:
 2. **Entrar al Directorio del Proyecto**
    - Navega al directorio del proyecto:
 
-     cd lista-tareas
+     cd Prueba-REACT-
      
 
 3. **Instalar las Dependencias**
    - Ejecuta el siguiente comando para instalar las dependencias necesarias:
-     ```bash
+     
      npm install
-     ```
+     
 
 4. **Iniciar el Proyecto**
    - Para iniciar la aplicación en tu entorno local, ejecuta:
